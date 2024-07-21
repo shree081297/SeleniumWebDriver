@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="2" total="5" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-07-20T22:03:23 IST" name="Suite" finished-at="2024-07-20T22:03:23 IST" duration-ms="49">
+    <groups>
+      <group name="regression">
+        <method signature="BaseClass.TC_002()[pri:0, instance:TestNG.OneTcExample@1d9b7cce]" name="TC_002" class="TestNG.BaseClass"/>
+        <method signature="MultipleTestCaseExample.TC_004()[pri:0, instance:TestNG.MultipleTestCaseExample@15ff3e9e]" name="TC_004" class="TestNG.MultipleTestCaseExample"/>
+        <method signature="OneTcExample.Test_01()[pri:0, instance:TestNG.OneTcExample@1d9b7cce]" name="Test_01" class="TestNG.OneTcExample"/>
+      </group> <!-- regression -->
+      <group name="smoke">
+        <method signature="MultipleTestCaseExample.TC_004()[pri:0, instance:TestNG.MultipleTestCaseExample@15ff3e9e]" name="TC_004" class="TestNG.MultipleTestCaseExample"/>
+      </group> <!-- smoke -->
+    </groups>
+    <test started-at="2024-07-20T22:03:23 IST" name="Test" finished-at="2024-07-20T22:03:23 IST" duration-ms="49">
+      <class name="TestNG.OneTcExample">
+        <test-method is-config="true" signature="TC_001()[pri:0, instance:TestNG.OneTcExample@1d9b7cce]" started-at="2024-07-20T22:03:23 IST" name="TC_001" finished-at="2024-07-20T22:03:23 IST" duration-ms="6" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_001 -->
+        <test-method is-config="true" signature="BeforeMethod()[pri:0, instance:TestNG.OneTcExample@1d9b7cce]" started-at="2024-07-20T22:03:23 IST" name="BeforeMethod" finished-at="2024-07-20T22:03:23 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeMethod -->
+        <test-method signature="TC_002()[pri:0, instance:TestNG.OneTcExample@1d9b7cce]" started-at="2024-07-20T22:03:23 IST" name="TC_002" finished-at="2024-07-20T22:03:23 IST" duration-ms="8" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_002 -->
+        <test-method signature="Test_01()[pri:0, instance:TestNG.OneTcExample@1d9b7cce]" started-at="2024-07-20T22:03:23 IST" name="Test_01" finished-at="2024-07-20T22:03:23 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test_01 -->
+        <test-method is-config="true" signature="BeforeMethod()[pri:0, instance:TestNG.OneTcExample@1d9b7cce]" started-at="2024-07-20T22:03:23 IST" name="BeforeMethod" finished-at="2024-07-20T22:03:23 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeMethod -->
+        <test-method is-config="true" signature="TC_004()[pri:0, instance:TestNG.OneTcExample@1d9b7cce]" started-at="2024-07-20T22:03:23 IST" name="TC_004" finished-at="2024-07-20T22:03:23 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_004 -->
+      </class> <!-- TestNG.OneTcExample -->
+      <class name="TestNG.MultipleTestCaseExample">
+        <test-method is-config="true" signature="BeforeMethod()[pri:0, instance:TestNG.MultipleTestCaseExample@15ff3e9e]" started-at="2024-07-20T22:03:23 IST" name="BeforeMethod" finished-at="2024-07-20T22:03:23 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeMethod -->
+        <test-method signature="TC_004()[pri:0, instance:TestNG.MultipleTestCaseExample@15ff3e9e]" started-at="2024-07-20T22:03:23 IST" name="TC_004" finished-at="2024-07-20T22:03:23 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_004 -->
+      </class> <!-- TestNG.MultipleTestCaseExample -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
